@@ -2,8 +2,8 @@
    Radio Serviclic — +51986661093 
    ============================================================ */
 
-const STREAM_URL = 'https://radios03.audiostreaming.ar/9128/stream';
-const METADATA_API = 'https://radios03.audiostreaming.ar/cp/get_info.php?p=9128'; // Posible endpoint, verificar
+const STREAM_URL = 'https://icecast.crispro941.cl/8006/stream';
+const METADATA_API = 'https://icecast.crispro941.cl/cp/get_info.php?p=8006'; // Posible endpoint, verificar
 
 const audio = new Audio(STREAM_URL);
 
